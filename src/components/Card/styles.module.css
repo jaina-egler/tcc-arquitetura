@@ -1,0 +1,18 @@
+.card{
+    width: 387px;
+    height: 383px;
+    border: 1px #000000 solid;
+    border-radius: 8px;
+}
+
+.card:hover{
+    transition: background-color 0.3s;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.card:not(hover){
+    transition: background-color 0.3s;
+}
+
+
