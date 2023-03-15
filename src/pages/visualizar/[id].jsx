@@ -1,13 +1,14 @@
-import Link from "next/link";
-import Header from "../components/Header"
+
+import Header from "../../components/Header"
+import PreviewPDF from "../../components/PreviewPDF";
 
 export default function Visualizar(){
+
     return(
         <>
         <Header></Header>
         Visualizar publicação
-
-        <Link href="/">Home</Link>
+        <PreviewPDF />
         </>
     )
 }

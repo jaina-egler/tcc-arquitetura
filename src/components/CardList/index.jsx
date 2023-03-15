@@ -20,6 +20,7 @@ export default function CardList(){
                 {cards.map(c => (
                     <Card 
                     key={c.id}
+                    id={c.id}
                     capa={c.capa}
                     titulo={c.titulo}
                     autor={c.autor}
